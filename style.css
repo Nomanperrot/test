@@ -1,0 +1,30 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./fond.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    outline: none;
+}
+
+video{
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: 0px 0px 40px rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px){
+    video{
+        width: 90%;
+    }
+}
+
